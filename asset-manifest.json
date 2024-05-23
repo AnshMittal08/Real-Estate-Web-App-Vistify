@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Real-Estate-Web-App-Vistify/static/css/main.224d0a59.css",
+    "main.js": "/Real-Estate-Web-App-Vistify/static/js/main.4f095323.js",
+    "static/js/488.85adfc35.chunk.js": "/Real-Estate-Web-App-Vistify/static/js/488.85adfc35.chunk.js",
+    "static/media/houseCard.png": "/Real-Estate-Web-App-Vistify/static/media/houseCard.b164fdcab9974e15c6c3.png",
+    "static/media/home.jpeg": "/Real-Estate-Web-App-Vistify/static/media/home.84638e60b662b15f2abd.jpeg",
+    "static/media/house.png": "/Real-Estate-Web-App-Vistify/static/media/house.ab81547c799a86fea372.png",
+    "static/media/logos.png": "/Real-Estate-Web-App-Vistify/static/media/logos.1316ef50d84b10ee5041.png",
+    "static/media/tech.png": "/Real-Estate-Web-App-Vistify/static/media/tech.fdc9af3dfad299a717d7.png",
+    "static/media/Vistify.png": "/Real-Estate-Web-App-Vistify/static/media/Vistify.2a28296d1524b6741d1f.png",
+    "static/media/recommend.png": "/Real-Estate-Web-App-Vistify/static/media/recommend.6644c51d87f8a0975732.png",
+    "static/media/track.png": "/Real-Estate-Web-App-Vistify/static/media/track.dd0b864bbe6e74696cca.png",
+    "static/media/buy.png": "/Real-Estate-Web-App-Vistify/static/media/buy.2913044b07a7950831cd.png",
+    "static/media/positive.png": "/Real-Estate-Web-App-Vistify/static/media/positive.d0ee0fc19ce008332a75.png",
+    "static/media/moving.png": "/Real-Estate-Web-App-Vistify/static/media/moving.dfdcf5a342b3ba0123bf.png",
+    "index.html": "/Real-Estate-Web-App-Vistify/index.html",
+    "main.224d0a59.css.map": "/Real-Estate-Web-App-Vistify/static/css/main.224d0a59.css.map",
+    "main.4f095323.js.map": "/Real-Estate-Web-App-Vistify/static/js/main.4f095323.js.map",
+    "488.85adfc35.chunk.js.map": "/Real-Estate-Web-App-Vistify/static/js/488.85adfc35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.224d0a59.css",
+    "static/js/main.4f095323.js"
+  ]
+}
