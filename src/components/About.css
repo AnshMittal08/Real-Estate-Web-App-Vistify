@@ -1,0 +1,59 @@
+
+   .about-us {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-top: -30px;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .content section {
+    margin-bottom: 30px;
+  }
+  
+  .content h2 {
+    font-size: 2em;
+    color: #293064;
+    margin-bottom: 15px;
+  }
+  
+  .content p,
+  .content ul {
+    margin-bottom: 20px;
+  }
+  
+  .content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .content li {
+    margin-bottom: 10px;
+  }
+  
+  .content strong {
+    color: #126894;
+  }
+  
+  
+  

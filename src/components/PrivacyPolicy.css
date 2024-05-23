@@ -1,0 +1,25 @@
+.privacy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .privacy-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    line-height: 1.6;
+  }
+  
+  .content section {
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .privacy-container {
+      padding: 10px;
+    }
+  }
+  

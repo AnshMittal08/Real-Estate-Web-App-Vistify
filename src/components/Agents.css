@@ -1,0 +1,68 @@
+.agents-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  .agents-title {
+    font-size: 36px;
+    color: #293064;
+    margin-bottom: 40px;
+  }
+  
+  .agents-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .agent-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .agent-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .agent-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .agent-details {
+    padding: 20px;
+  }
+  
+  .agent-details h2 {
+    font-size: 24px;
+    color: #293064;
+    margin-bottom: 10px;
+  }
+  
+  .agent-details p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .agents-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .agent-card {
+      width: 90%;
+    }
+  }
+  

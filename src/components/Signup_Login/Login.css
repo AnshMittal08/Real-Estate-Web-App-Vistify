@@ -1,0 +1,125 @@
+
+.wrap-login {
+  background-color: white;
+  height: 100vh;
+}
+
+.Badi-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+
+.login-container {
+  width: 30vw;
+  height: initial;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #E2D2D4;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 50px;
+}
+
+.img1 {
+  background-color: rgb(226 210 212);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 110vh;
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #0a0404;
+  margin-bottom: 20px;
+}
+
+.login-container .form-group {
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+  text-align: left;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 95%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  transition: border-color 0.3s ease;
+  border-color: #0a0404;
+}
+
+.login-container input[type="email"]:focus,
+.login-container input[type="password"]:focus {
+  border-color: #007bff;
+}
+
+.login-container .btn-login {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2F4858;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container .btn-login:hover {
+  background-color: #566073;
+}
+
+.login-container .error-msg {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Sign {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nune {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .Badi-div {
+    display: block;
+  }
+  .nune {
+    display: block;
+    color: white;
+    font-size: 40px;
+    margin-top: 0;
+  }
+  .login-container {
+    width: 90%;
+    max-width: 90%; 
+    height: 50%;
+    margin-left: 20px;
+    height: initial;
+  }
+  .img1 {
+    display: none;
+  }
+}
+
+.logo-route {
+  margin-top: 10px;
+  height: 60px;
+}

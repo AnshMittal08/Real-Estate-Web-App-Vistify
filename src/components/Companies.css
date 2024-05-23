@@ -1,0 +1,36 @@
+.companies-container {
+    margin-top: 64px;
+  }
+  
+  .custom-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-box,
+  .right-box {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .logo-img,
+  .stars-img {
+    max-width: 150px;
+  }
+  
+  .company-info {
+    color: #7d8589;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+  
+  .logos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logos-img {
+    max-width: 100%;
+  }

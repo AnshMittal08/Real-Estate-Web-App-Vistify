@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap'); 
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-top, .navbar, .header, .search-area, .banner, .banner-area, .item, .item-description, .footer, .subscribe-area, .section-all-re, .best-estate-item {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.header {
+    background-color: white;
+}
+
+.nav-item {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-item:hover .sub-ul {
+    display: block;
+    cursor: pointer;
+}
+
+.nav-item .fa-chevron-down {
+    font-size: 14px;
+}
+
+.sub-ul li:hover {
+    background: #f5f5f5;
+    color: #364465;
+    border-radius: 5px;
+}
+
+.header .sub-ul {
+    background: white;
+    position: absolute;
+    display: none;
+    padding: 0;
+    width: 150px;
+    color: black;
+    border-radius: 5px;
+    top: 57px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px;
+    z-index: 10;
+}
+
+.sub-ul li {
+    list-style: none;
+    font-weight: 600;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.sub-ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.search-area {
+    background-color: white;
+    padding: 5px 20px;
+    box-shadow: 0 10px 12px rgba(77,60,160,0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    min-height: 500px;
+    color: white;
+    background: #eff6ff no-repeat;
+    background-size: cover!important;
+    background-position: center!important;
+    position: relative;
+}
+
+.inp-search {
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+}
+
+.find-search {
+    position: absolute;
+    background: white;
+    top: 224px;
+    width: 100%;
+    border-radius: 8px;
+    color: black;
+    padding: 20px;
+    text-align: start;
+    overflow-y: scroll;
+    max-height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    z-index: 10;
+}
+
+.find-search h4 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.fd-item {
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fd-item h4 {
+    font-weight: 600;
+}
+
+.flat-detail {
+    color: black;
+}
+
+.flat-detail-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flat-detail-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.fd-address {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.fd-address .fa-map-marker-alt {
+    margin-right: 8px;
+}
+
+.fd-price {
+    color: #00e6d2;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.fd-property-detail span:first-child {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.fd-features {
+    padding-top: 20px;
+}
+
+.fd-sidebar-item h4 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.recently-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.category-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.category-ul li {
+    padding-top: 10px;
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.page-description {
+    font-size: 20px;
+    font-weight: 500;
+    color: #666;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.image-gallery {
+    margin-top: 20px;
+}
+
+.image-gallery .image-gallery-slide img {
+    border-radius: 8px;
+}
+
+.fd-item p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.fd-item .fa-check {
+    color: #00e6d2;
+    margin-right: 5px;
+}
+
+iframe {
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .flat-detail-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .fd-sidebar-item {
+        margin-top: 20px;
+    }
+
+    .fd-price {
+        font-size: 24px;
+    }
+}
+

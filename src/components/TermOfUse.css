@@ -1,0 +1,25 @@
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .terms-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    line-height: 1.6;
+  }
+  
+  .content section {
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .terms-container {
+      padding: 10px;
+    }
+  }
+  

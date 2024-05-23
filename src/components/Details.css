@@ -1,0 +1,132 @@
+  .details-container {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+  
+  .custom-box {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .img-container {
+    width: 50%;
+  }
+  
+  .house-img {
+    max-width: 100%;
+  }
+  
+  .text-box {
+    flex: 1;
+  }
+  
+  .divider {
+    width: 13%;
+    height: 5px;
+    background-color: #000339;
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 35px;
+    color: #000339;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #5a6473;
+    line-height: 27px;
+  }
+  
+  .text-flexbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    flex-wrap: wrap;
+  }
+  
+  .text-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .large-text {
+    font-size: 64px;
+  }
+  
+  .small-text {
+    font-size: 18px;
+    color: #7b8087;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 992px) {
+    .custom-box {
+      gap: 40px;
+    }
+  
+    .heading {
+      font-size: 30px;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    .large-text {
+      font-size: 50px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .img-container {
+      width: 100%;
+    }
+  
+    .heading {
+      font-size: 28px;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    .large-text {
+      font-size: 48px;
+    }
+  
+    .text-flexbox {
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .custom-box {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .heading {
+      font-size: 24px;
+    }
+  
+    .description {
+      font-size: 12px;
+    }
+  
+    .large-text {
+      font-size: 40px;
+    }
+  
+    .text-flexbox {
+      padding: 0 10px;
+    }
+  }
+  
